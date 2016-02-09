@@ -1,0 +1,350 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-less',
+1 verbose cli   'grunt-contrib-watch',
+1 verbose cli   'grunt0exec',
+1 verbose cli   'grunt-text-replace',
+1 verbose cli   'grunt-css-flip',
+1 verbose cli   'grunt-contrib-copy',
+1 verbose cli   'grunt-css-comb',
+1 verbose cli   'grunt-svg-min',
+1 verbose cli   'grunt-contrib-uglify',
+1 verbose cli   'grunt-contrib-jshint' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.36
+4 warn package.json theme-majhub-tasks@0.1.0 No README data
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'grunt-contrib-less', null ]
+7 verbose cache add name=undefined spec="grunt-contrib-less" args=["grunt-contrib-less",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'grunt-contrib-less',
+8 verbose parsed url   path: 'grunt-contrib-less',
+8 verbose parsed url   href: 'grunt-contrib-less' }
+9 verbose cache add [ 'grunt-contrib-watch', null ]
+10 verbose cache add name=undefined spec="grunt-contrib-watch" args=["grunt-contrib-watch",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt-contrib-watch',
+11 verbose parsed url   path: 'grunt-contrib-watch',
+11 verbose parsed url   href: 'grunt-contrib-watch' }
+12 verbose cache add [ 'grunt0exec', null ]
+13 verbose cache add name=undefined spec="grunt0exec" args=["grunt0exec",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'grunt0exec',
+14 verbose parsed url   path: 'grunt0exec',
+14 verbose parsed url   href: 'grunt0exec' }
+15 verbose cache add [ 'grunt-text-replace', null ]
+16 verbose cache add name=undefined spec="grunt-text-replace" args=["grunt-text-replace",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'grunt-text-replace',
+17 verbose parsed url   path: 'grunt-text-replace',
+17 verbose parsed url   href: 'grunt-text-replace' }
+18 verbose cache add [ 'grunt-css-flip', null ]
+19 verbose cache add name=undefined spec="grunt-css-flip" args=["grunt-css-flip",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'grunt-css-flip',
+20 verbose parsed url   path: 'grunt-css-flip',
+20 verbose parsed url   href: 'grunt-css-flip' }
+21 verbose cache add [ 'grunt-contrib-copy', null ]
+22 verbose cache add name=undefined spec="grunt-contrib-copy" args=["grunt-contrib-copy",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'grunt-contrib-copy',
+23 verbose parsed url   path: 'grunt-contrib-copy',
+23 verbose parsed url   href: 'grunt-contrib-copy' }
+24 verbose cache add [ 'grunt-css-comb', null ]
+25 verbose cache add name=undefined spec="grunt-css-comb" args=["grunt-css-comb",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'grunt-css-comb',
+26 verbose parsed url   path: 'grunt-css-comb',
+26 verbose parsed url   href: 'grunt-css-comb' }
+27 verbose cache add [ 'grunt-svg-min', null ]
+28 verbose cache add name=undefined spec="grunt-svg-min" args=["grunt-svg-min",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'grunt-svg-min',
+29 verbose parsed url   path: 'grunt-svg-min',
+29 verbose parsed url   href: 'grunt-svg-min' }
+30 verbose cache add [ 'grunt-contrib-uglify', null ]
+31 verbose cache add name=undefined spec="grunt-contrib-uglify" args=["grunt-contrib-uglify",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'grunt-contrib-uglify',
+32 verbose parsed url   path: 'grunt-contrib-uglify',
+32 verbose parsed url   href: 'grunt-contrib-uglify' }
+33 verbose cache add [ 'grunt-contrib-jshint', null ]
+34 verbose cache add name=undefined spec="grunt-contrib-jshint" args=["grunt-contrib-jshint",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'grunt-contrib-jshint',
+35 verbose parsed url   path: 'grunt-contrib-jshint',
+35 verbose parsed url   href: 'grunt-contrib-jshint' }
+36 silly lockFile ec52cd20-grunt-contrib-less grunt-contrib-less
+37 verbose lock grunt-contrib-less /home/chipmunkyou/.npm/ec52cd20-grunt-contrib-less.lock
+38 silly lockFile 7f2b8bdb-grunt-contrib-watch grunt-contrib-watch
+39 verbose lock grunt-contrib-watch /home/chipmunkyou/.npm/7f2b8bdb-grunt-contrib-watch.lock
+40 silly lockFile 4849ee97-grunt0exec grunt0exec
+41 verbose lock grunt0exec /home/chipmunkyou/.npm/4849ee97-grunt0exec.lock
+42 silly lockFile df9b7cb6-grunt-text-replace grunt-text-replace
+43 verbose lock grunt-text-replace /home/chipmunkyou/.npm/df9b7cb6-grunt-text-replace.lock
+44 silly lockFile 1707516c-grunt-css-flip grunt-css-flip
+45 verbose lock grunt-css-flip /home/chipmunkyou/.npm/1707516c-grunt-css-flip.lock
+46 silly lockFile a84690fa-grunt-contrib-copy grunt-contrib-copy
+47 verbose lock grunt-contrib-copy /home/chipmunkyou/.npm/a84690fa-grunt-contrib-copy.lock
+48 silly lockFile 8f9bb6b9-grunt-css-comb grunt-css-comb
+49 verbose lock grunt-css-comb /home/chipmunkyou/.npm/8f9bb6b9-grunt-css-comb.lock
+50 silly lockFile 7eb58305-grunt-svg-min grunt-svg-min
+51 verbose lock grunt-svg-min /home/chipmunkyou/.npm/7eb58305-grunt-svg-min.lock
+52 silly lockFile 9dabf0fb-grunt-contrib-uglify grunt-contrib-uglify
+53 verbose lock grunt-contrib-uglify /home/chipmunkyou/.npm/9dabf0fb-grunt-contrib-uglify.lock
+54 silly lockFile 0324b488-grunt-contrib-jshint grunt-contrib-jshint
+55 verbose lock grunt-contrib-jshint /home/chipmunkyou/.npm/0324b488-grunt-contrib-jshint.lock
+56 silly lockFile ec52cd20-grunt-contrib-less grunt-contrib-less
+57 silly lockFile ec52cd20-grunt-contrib-less grunt-contrib-less
+58 silly lockFile 7f2b8bdb-grunt-contrib-watch grunt-contrib-watch
+59 silly lockFile 7f2b8bdb-grunt-contrib-watch grunt-contrib-watch
+60 silly lockFile 4849ee97-grunt0exec grunt0exec
+61 silly lockFile 4849ee97-grunt0exec grunt0exec
+62 silly lockFile df9b7cb6-grunt-text-replace grunt-text-replace
+63 silly lockFile df9b7cb6-grunt-text-replace grunt-text-replace
+64 silly lockFile 1707516c-grunt-css-flip grunt-css-flip
+65 silly lockFile 1707516c-grunt-css-flip grunt-css-flip
+66 silly lockFile a84690fa-grunt-contrib-copy grunt-contrib-copy
+67 silly lockFile a84690fa-grunt-contrib-copy grunt-contrib-copy
+68 silly lockFile 8f9bb6b9-grunt-css-comb grunt-css-comb
+69 silly lockFile 8f9bb6b9-grunt-css-comb grunt-css-comb
+70 silly lockFile 7eb58305-grunt-svg-min grunt-svg-min
+71 silly lockFile 7eb58305-grunt-svg-min grunt-svg-min
+72 silly lockFile 9dabf0fb-grunt-contrib-uglify grunt-contrib-uglify
+73 silly lockFile 9dabf0fb-grunt-contrib-uglify grunt-contrib-uglify
+74 silly lockFile 0324b488-grunt-contrib-jshint grunt-contrib-jshint
+75 silly lockFile 0324b488-grunt-contrib-jshint grunt-contrib-jshint
+76 verbose addNamed [ 'grunt-contrib-less', '' ]
+77 verbose addNamed [ null, '*' ]
+78 silly lockFile df1440a2-grunt-contrib-less grunt-contrib-less@
+79 verbose lock grunt-contrib-less@ /home/chipmunkyou/.npm/df1440a2-grunt-contrib-less.lock
+80 verbose addNamed [ 'grunt-contrib-watch', '' ]
+81 verbose addNamed [ null, '*' ]
+82 silly lockFile b64937f1-grunt-contrib-watch grunt-contrib-watch@
+83 verbose lock grunt-contrib-watch@ /home/chipmunkyou/.npm/b64937f1-grunt-contrib-watch.lock
+84 verbose addNamed [ 'grunt0exec', '' ]
+85 verbose addNamed [ null, '*' ]
+86 silly lockFile bfd6f51f-grunt0exec grunt0exec@
+87 verbose lock grunt0exec@ /home/chipmunkyou/.npm/bfd6f51f-grunt0exec.lock
+88 verbose addNamed [ 'grunt-text-replace', '' ]
+89 verbose addNamed [ null, '*' ]
+90 silly lockFile f48c225a-grunt-text-replace grunt-text-replace@
+91 verbose lock grunt-text-replace@ /home/chipmunkyou/.npm/f48c225a-grunt-text-replace.lock
+92 verbose addNamed [ 'grunt-css-flip', '' ]
+93 verbose addNamed [ null, '*' ]
+94 silly lockFile cc6a6375-grunt-css-flip grunt-css-flip@
+95 verbose lock grunt-css-flip@ /home/chipmunkyou/.npm/cc6a6375-grunt-css-flip.lock
+96 verbose addNamed [ 'grunt-contrib-copy', '' ]
+97 verbose addNamed [ null, '*' ]
+98 silly lockFile 9ec4cea0-grunt-contrib-copy grunt-contrib-copy@
+99 verbose lock grunt-contrib-copy@ /home/chipmunkyou/.npm/9ec4cea0-grunt-contrib-copy.lock
+100 verbose addNamed [ 'grunt-css-comb', '' ]
+101 verbose addNamed [ null, '*' ]
+102 silly lockFile 77b281f9-grunt-css-comb grunt-css-comb@
+103 verbose lock grunt-css-comb@ /home/chipmunkyou/.npm/77b281f9-grunt-css-comb.lock
+104 verbose addNamed [ 'grunt-svg-min', '' ]
+105 verbose addNamed [ null, '*' ]
+106 silly lockFile 8dbef2d2-grunt-svg-min grunt-svg-min@
+107 verbose lock grunt-svg-min@ /home/chipmunkyou/.npm/8dbef2d2-grunt-svg-min.lock
+108 verbose addNamed [ 'grunt-contrib-uglify', '' ]
+109 verbose addNamed [ null, '*' ]
+110 silly lockFile 1f4692e4-grunt-contrib-uglify grunt-contrib-uglify@
+111 verbose lock grunt-contrib-uglify@ /home/chipmunkyou/.npm/1f4692e4-grunt-contrib-uglify.lock
+112 verbose addNamed [ 'grunt-contrib-jshint', '' ]
+113 verbose addNamed [ null, '*' ]
+114 silly lockFile c28ce841-grunt-contrib-jshint grunt-contrib-jshint@
+115 verbose lock grunt-contrib-jshint@ /home/chipmunkyou/.npm/c28ce841-grunt-contrib-jshint.lock
+116 silly addNameRange { name: 'grunt-contrib-less', range: '*', hasData: false }
+117 silly addNameRange { name: 'grunt-contrib-watch', range: '*', hasData: false }
+118 silly addNameRange { name: 'grunt-text-replace', range: '*', hasData: false }
+119 silly addNameRange { name: 'grunt-css-flip', range: '*', hasData: false }
+120 silly addNameRange { name: 'grunt-contrib-copy', range: '*', hasData: false }
+121 silly addNameRange { name: 'grunt-css-comb', range: '*', hasData: false }
+122 silly addNameRange { name: 'grunt-svg-min', range: '*', hasData: false }
+123 silly addNameRange { name: 'grunt-contrib-uglify', range: '*', hasData: false }
+124 silly addNameRange { name: 'grunt-contrib-jshint', range: '*', hasData: false }
+125 verbose url raw grunt-css-comb
+126 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-css-comb' ]
+127 verbose url resolved https://registry.npmjs.org/grunt-css-comb
+128 info trying registry request attempt 1 at 01:13:59
+129 http GET https://registry.npmjs.org/grunt-css-comb
+130 verbose url raw grunt-svg-min
+131 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-svg-min' ]
+132 verbose url resolved https://registry.npmjs.org/grunt-svg-min
+133 info trying registry request attempt 1 at 01:13:59
+134 http GET https://registry.npmjs.org/grunt-svg-min
+135 verbose url raw grunt-contrib-jshint
+136 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+137 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+138 info trying registry request attempt 1 at 01:13:59
+139 http GET https://registry.npmjs.org/grunt-contrib-jshint
+140 verbose url raw grunt-contrib-uglify
+141 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+142 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+143 info trying registry request attempt 1 at 01:13:59
+144 http GET https://registry.npmjs.org/grunt-contrib-uglify
+145 silly addNameRange { name: 'grunt0exec', range: '*', hasData: false }
+146 verbose url raw grunt-contrib-less
+147 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-less' ]
+148 verbose url resolved https://registry.npmjs.org/grunt-contrib-less
+149 info trying registry request attempt 1 at 01:13:59
+150 verbose etag "2J1DYD5OM58ZE6VRT2LXI1T88"
+151 http GET https://registry.npmjs.org/grunt-contrib-less
+152 verbose url raw grunt-contrib-watch
+153 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+154 verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+155 info trying registry request attempt 1 at 01:13:59
+156 verbose etag "2HFPPJJJJD5BITOZN2GT07R51"
+157 http GET https://registry.npmjs.org/grunt-contrib-watch
+158 verbose url raw grunt-text-replace
+159 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-text-replace' ]
+160 verbose url resolved https://registry.npmjs.org/grunt-text-replace
+161 info trying registry request attempt 1 at 01:13:59
+162 verbose etag "4SG0T3MV6LZHLPNTLKUG6GY9P"
+163 http GET https://registry.npmjs.org/grunt-text-replace
+164 verbose url raw grunt-css-flip
+165 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-css-flip' ]
+166 verbose url resolved https://registry.npmjs.org/grunt-css-flip
+167 info trying registry request attempt 1 at 01:13:59
+168 verbose etag "8GV5A77K5GARCTBPLZC63838P"
+169 http GET https://registry.npmjs.org/grunt-css-flip
+170 verbose url raw grunt-contrib-copy
+171 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-copy' ]
+172 verbose url resolved https://registry.npmjs.org/grunt-contrib-copy
+173 info trying registry request attempt 1 at 01:13:59
+174 verbose etag "9PXTW6JH9722FW6MZ4D0ARLEC"
+175 http GET https://registry.npmjs.org/grunt-contrib-copy
+176 verbose url raw grunt0exec
+177 verbose url resolving [ 'https://registry.npmjs.org/', './grunt0exec' ]
+178 verbose url resolved https://registry.npmjs.org/grunt0exec
+179 info trying registry request attempt 1 at 01:13:59
+180 http GET https://registry.npmjs.org/grunt0exec
+181 http 304 https://registry.npmjs.org/grunt-contrib-less
+182 silly registry.get cb [ 304,
+182 silly registry.get   { date: 'Tue, 02 Feb 2016 06:14:01 GMT',
+182 silly registry.get     via: '1.1 varnish',
+182 silly registry.get     'cache-control': 'max-age=300',
+182 silly registry.get     etag: '"2J1DYD5OM58ZE6VRT2LXI1T88"',
+182 silly registry.get     age: '284',
+182 silly registry.get     connection: 'keep-alive',
+182 silly registry.get     'x-served-by': 'cache-atl6220-ATL',
+182 silly registry.get     'x-cache': 'HIT',
+182 silly registry.get     'x-cache-hits': '1',
+182 silly registry.get     'x-timer': 'S1454393641.992106,VS0,VE0',
+182 silly registry.get     vary: 'Accept' } ]
+183 verbose etag grunt-contrib-less from cache
+184 http 404 https://registry.npmjs.org/grunt-svg-min
+185 silly registry.get cb [ 404,
+185 silly registry.get   { 'content-type': 'application/json',
+185 silly registry.get     'cache-control': 'max-age=0',
+185 silly registry.get     'content-length': '2',
+185 silly registry.get     'accept-ranges': 'bytes',
+185 silly registry.get     date: 'Tue, 02 Feb 2016 06:14:02 GMT',
+185 silly registry.get     via: '1.1 varnish',
+185 silly registry.get     age: '0',
+185 silly registry.get     connection: 'keep-alive',
+185 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+185 silly registry.get     'x-cache': 'MISS',
+185 silly registry.get     'x-cache-hits': '0',
+185 silly registry.get     'x-timer': 'S1454393641.970497,VS0,VE33' } ]
+186 silly addNameRange number 2 { name: 'grunt-svg-min', range: '*', hasData: true }
+187 silly addNameRange versions [ undefined, [] ]
+188 error TypeError: Cannot read property 'latest' of undefined
+188 error     at next (/usr/lib/node_modules/npm/lib/cache.js:687:35)
+188 error     at /usr/lib/node_modules/npm/lib/cache.js:675:5
+188 error     at saved (/usr/lib/node_modules/npm-registry-client/lib/get.js:148:7)
+188 error     at /usr/lib/node_modules/graceful-fs/polyfills.js:133:7
+188 error     at Object.oncomplete (fs.js:108:15)
+189 error If you need help, you may report this log at:
+189 error     <http://github.com/isaacs/npm/issues>
+189 error or email it to:
+189 error     <npm-@googlegroups.com>
+190 error System Linux 2.6.32-504.3.3.el6.x86_64
+191 error command "node" "/usr/bin/npm" "install" "grunt-contrib-less" "grunt-contrib-watch" "grunt0exec" "grunt-text-replace" "grunt-css-flip" "grunt-contrib-copy" "grunt-css-comb" "grunt-svg-min" "grunt-contrib-uglify" "grunt-contrib-jshint"
+192 error cwd /home/chipmunkyou/public_html/moodle/hub/theme/majhub/amd
+193 error node -v v0.10.36
+194 error npm -v 1.3.6
+195 error type non_object_property_load
+196 verbose exit [ 1, true ]
