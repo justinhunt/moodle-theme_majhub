@@ -28,7 +28,7 @@
 defined('MOODLE_INTERNAL') || die;
 
 $plugin->version   = 2016011800;
-$plugin->requires  = 2015111600.00; // 3.0 (Build: 20151116).
+$plugin->requires  = 2015051100.00; // 2.9
 $plugin->component = 'theme_majhub';
 $plugin->maturity = MATURITY_BETA;
 $plugin->release = '1.0.0.0';
