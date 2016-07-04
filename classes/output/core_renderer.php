@@ -29,7 +29,7 @@ namespace theme_majhub\output;
 use stdClass;
 
 //class core_renderer extends \theme_shoehorn\output\core_renderer {
-class core_renderer extends \theme_shoehorn\core_renderer {
+class core_renderer extends \theme_shoehorn\output\core_renderer {
     protected $majhub = null; //
 
 
